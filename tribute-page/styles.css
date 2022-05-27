@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+body{
+  font-family:Ubuntu,serif;
+  background: linear-gradient(120deg,rgb(188,150,187),rgb(176,239,161)); 
+}
+
+header{
+  text-align:center;
+}
+
+hr{
+  border:1px solid #BBBBBB;
+}
+
+h1{
+  margin:10px auto;
+  font-family:Ubuntu,serif;
+  font-size:40px;
+}
+
+h3{
+  margin:10px auto;
+  font-family:Ubuntu,serif;
+  font-weight:400;
+  font-size:20px;
+}
+
+h4{
+  color:white;
+  font-family:Ubuntu,serif;
+  font-weight:300;
+}
+
+footer{
+  text-align:center;
+}
+
+#logo{
+  width:5%;
+  min-width:35px;
+  max-width:50px;
+  margin:0 auto;
+
+  
+}
+#main{
+  background:#F7E4F777;
+  padding:30px;
+  max-width:1300px;
+  min-width:500px;
+  margin:30px auto;
+}
+
+#image{
+  width:50;
+  max-width:100%;
+  height:auto;
+  border-radius:10px;
+  display:block;
+}
+
+#img-div{
+margin:20px auto;
+background-color:white;
+max-width:1300px;
+min-width:500px;
+padding:5px;
+border-radius:10px;
+}
+
+#img-caption{
+  text-align:center;
+  margin:10px auto;
+  min-width:500px;
+  max-width:1200px;
+  height:auto;
+  font-family:Ubuntu,serif;
+  font-weight:400;
+  padding:10px 50px;
+}
+
+#tribute-info{
+  border:2px solid;
+  width:50%;
+  max-width:400px;
+  margin:30px 0;
+  padding:0;
+  overflow:hidden;
+  background-color:#F7EDF7dd;
+  float:left;
+}
+
+#tribute-link{
+  text-decoration:none;
+  color:black;
+  margin-bottom:5px;
+}
+#tribure-link:visited{
+  color:black;
+}
+#tribute-link:hover{
+  color:rgb(200,100,150);
+}
+
+#wiki{
+  text-decoration:none;
+  color:rgb(150,50,150);
+}
+#wiki:visited{
+  color:rgb(150,50,150);
+}
+#wiki:hover{
+  color:rgb(200,100,150);
+}
+
+#member-list{
+  margin:20px;
+  line-height: 1.5;
+}
+
+#detail{
+  display:inline-block;
+  width:60%;
+  padding:20px;
+  margin:0 35px;
+
+}
+
+#detail>h3{
+  font-weight:700;
+  line-height: 1;
+}
+
+#detail>ul{
+  font-size:20px;
+  margin-left: 1.5em;
+  line-height:1.5;
+  text-align:justify;
+}
+
+.bold{
+  font-weight:700;
+}
+
+.left{
+  padding:0 0 0 20px;
+  float:left;
+  width:120px;
+
+}
+
+.right{
+  padding:0 30px;
+  display:inline-block;
+}
+.topic>h4{
+  background-color:#501B50;
+  padding:10px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.divider {
+  border-bottom: 1px solid grey;
+  margin: 5px 10px;
+  clear: right;
+}
+
+.content>#first{
+  margin:10px 5px;
+  padding:15px 0 0;
+}
+
+.content>p{
+  margin:10px 5px;
+  padding:5px 3px 0;
+}
