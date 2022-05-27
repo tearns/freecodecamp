@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&display=swap');
+
+body {
+  background: linear-gradient(180deg,#D1C6F3,#E9BCAC);
+  margin: 50px 0 50px 0;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    color:black;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color: #8441A4;
+}
+
+a:active{
+    color:#8441A4;
+}
+
+input,select,textarea{
+  font-family:Rubik;
+  margin: 10px 0 20px 0;
+	width: 100%;
+  min-height: 2em;
+}
+
+label {
+  font-family:Rubik;
+  display: block;
+}
+
+#title{
+  font-family:Rubik;
+  margin: 30px 0 5px 0;
+  text-align: center;
+}
+
+#dropdown{
+  margin: 10px 0 20px 0;
+}
+
+#friend{
+  margin: 0 0 20px 0;
+}
+
+#description{
+  font-family:Rubik;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.surveyform{
+  width: 80%;
+  background-color: #8441A444;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+
+.inline{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  
+}
+
+.improve{
+  margin: 0 0 20px 0;
+}
+
+input[type="submit"]{
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #8441A4;
+  border-color: #d1c6f3;
+  min-width: 300px;
+  color:white;
+  font-weight: 500;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.space{
+  margin: 10px 0 0 0;
+}
+
+
+
